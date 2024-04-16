@@ -1,0 +1,48 @@
+section:nth-of-type(11) {
+  background-image: url("../../../../images/home/banner cv web sem foto sem logos.png");
+  height: auto;
+}
+.container-complementares {
+  width: 80%;
+  margin: 0 0;
+  min-height: 300px;
+  padding-bottom: 1.5rem;
+}
+
+.slide {
+  overflow: hidden;
+  white-space: nowrap;
+  padding:50px 0;
+  background-color:rgba(176, 190, 197, 0.59);
+}
+.logo-slide {
+  display: inline-block;
+  animation: 25s slide infinite linear;
+  /* margin-left: -300px; */
+}
+
+.logo-slide span {
+  font-family: "Roboto", sans-serif;
+  font-size: clamp(3.5rem, 2.5vw, 5rem); 
+  margin-right: 3rem;
+  color:#FFFFFF;
+}
+
+section.slide .slide:hover .logo-slide {
+  animation-play-state: paused;
+}
+@media screen and (max-width: 1000px) {
+  
+  .paragraph {
+    font-size: clamp(2.2rem, 2.5vw, 5rem);
+    line-height: 3rem;
+  }
+  .card {
+    min-width: 380px;
+    margin-bottom:3rem
+  }
+  .border-bottom{
+    margin-bottom:3rem;
+  }
+
+}

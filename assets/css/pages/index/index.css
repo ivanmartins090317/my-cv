@@ -1,0 +1,11 @@
+/* global */
+@import '../../global/global.css';
+
+@import './partials/header.css';
+@import './partials/home.css';
+@import './partials/sobre.css';
+@import './partials/experiencias.css';
+@import './partials/formacao.css';
+@import './partials/idiomas-certi.css';
+@import './partials/complementares.css';
+

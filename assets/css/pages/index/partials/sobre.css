@@ -1,0 +1,26 @@
+section:nth-of-type(3) {
+  background-image:url("../../../../images/home/banner cv web sem foto sem logos.png");
+  
+  height: 690px;
+  z-index:-1;
+  background-color:#424242;
+}
+
+.paragraph-about{
+  font-family:"Montserrat", sans-serif;
+  font-size:clamp(1.5rem, 2.5vw, 5rem);
+  padding-top:5rem;
+  width: 80%;
+  max-width:200rem;
+  margin:0 auto;
+  line-height:5.4rem;
+  color:#ffffff;
+  padding-bottom:1.5rem;
+}
+
+@media screen and (max-width: 1000px){
+  .paragraph-about{
+    font-size:clamp(1.8rem, 2.5vw, 5rem);
+    line-height:3rem
+  }
+}

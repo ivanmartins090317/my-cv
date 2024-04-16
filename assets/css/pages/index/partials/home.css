@@ -1,0 +1,36 @@
+section:nth-of-type(1) {
+  background-image: url("../../../../images/home/banner cv web sem foto sem logos.png");
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section .title {
+  display: flex;
+  color: #fff;
+  height: auto;
+  width: 80%;
+  margin: auto;
+}
+section .title h1 {
+  max-width: 70rem;
+  font-family: "Roboto", sans-serif;
+  font-size: clamp(7.5rem, 2.5vw, 1rem);
+  font-weight: 800;
+  line-height: clamp(8rem, 2.5vw, 2rem);
+  margin: 0;
+  position:relative;
+}
+.text-circular {
+  position:absolute;
+  left: 75%;
+  animation: rodando 20s linear infinite;
+}
+
+@media screen and (max-width: 1000px) {
+  .text-circular{
+    left:13rem;
+    top:23rem
+  }
+}

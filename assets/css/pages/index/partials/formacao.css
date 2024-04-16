@@ -1,0 +1,10 @@
+section:nth-of-type(7) {
+  background-image: url("../../../../images/home/banner cv web sem foto sem logos.png");
+  height: 500px;
+}
+
+@media screen and (max-width: 1000px) {
+  section:nth-of-type(7){
+    height: 300px;
+  }
+}

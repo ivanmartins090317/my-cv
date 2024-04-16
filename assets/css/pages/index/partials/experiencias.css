@@ -1,0 +1,25 @@
+section:nth-of-type(5) {
+  background-image: url("../../../../images/home/banner cv web sem foto sem logos.png");
+  height: auto;
+  background-color: #424242;
+}
+.container-experiences {
+    width:80%;
+    margin:0 2%;
+    min-height:300px;
+    gap:10px;
+    padding-bottom:5.5rem;
+}
+
+@media screen and (max-width: 1000px) {
+  /* .paragraph {
+    font-size: clamp(2rem, 2.5vw, 5rem);
+    line-height: 2rem;
+  } */
+  .card{
+    min-width:420px;
+    gap:0;
+    
+  }
+ 
+}
