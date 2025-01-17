@@ -26,12 +26,7 @@ section {
   background-attachment: fixed;
 }
 
-.card {
-  max-width: 1400px; /* Ajuste o tamanho conforme necessário */
-  margin-right: 15px; /* Espaçamento entre os cards */
-  /* padding: 15px; */
-  border: 1px solid red; 
-}
+
 /* .title {
   font-family: "Open-Sans", sans-serif;
   color: #ffffff;
@@ -44,19 +39,7 @@ section {
   padding-top: 5rem;
   padding-bottom: 1.5rem;
 } */
-.paragraph {
-  color: #ffffff;
-  font-family: "Montserrat", sans-serif;
-  font-size: clamp(4rem, 2.5vw, 5rem);
-  padding-top: 1.5rem;
-  width: 80%;
-  max-width: 200rem;
-  margin: 0 auto;
-  line-height: 5.4rem;
-  color: #ffffff;
-  /* border-bottom: 1px solid #ffffff; */
-  padding-bottom: 1rem;
-}
+
 .border-bottom {
   width: 80%;
   height:1px;

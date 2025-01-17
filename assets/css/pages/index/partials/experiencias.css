@@ -3,14 +3,36 @@ section:nth-of-type(5) {
   height: auto;
   background-color: #424242;
 }
-.container-experiences {
-    width:80%;
+#experiencia .container-experiences {
+    width:100%;
     margin:0 2%;
     min-height:300px;
     gap:10px;
-    padding-bottom:5.5rem;
+    padding-bottom:5%;
 }
-
+.card {
+  max-width: 1400px; 
+  margin-right: 15px; 
+}
+#experiencia .container-experiences .title{
+  font-size:2.5vw;
+  font-family: "Open-Sans", sans-serif;
+  font-weight:bold;
+  padding-top:4%;
+}
+#experiencia .container-experiences .paragraph {
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5vw;
+  padding-top: 1.5rem;
+  width: 80%;
+  max-width: 200rem;
+  margin: 0 auto;
+  line-height: 4vw;
+  color: #ffffff;
+  /* border-bottom: 1px solid #ffffff; */
+  padding-bottom: 1rem;
+}
 @media screen and (max-width: 1000px) {
   /* .paragraph {
     font-size: clamp(2rem, 2.5vw, 5rem);
