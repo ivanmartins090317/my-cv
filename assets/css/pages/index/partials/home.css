@@ -21,23 +21,49 @@ section .title h1 {
   line-height:9vw;
   margin: 0;
   position:relative;
+  animation: disolved 1s ease-in-out;
+  animation-timeline: view();
+  animation-range:cover 50% cover 100%;
+
 }
 .text-circular {
   position:absolute;
   left: 60%;
-  
+  animation: disolved 1s ease-in-out;
+  animation-timeline: view();
+  animation-range:cover 80% cover 100%;
 }
 .text-circular img{
   width:135%;
   animation: rodando 20s linear infinite;
+
 }
 @media screen and (min-width: 1600px){
   .text-circular img{
     width:202%;
+  }
 }
-@media screen and (max-width: 1000px) {
-  .text-circular{
-    left:13rem;
-    top:23rem
+@media screen and (max-width: 1100px) {
+ .text-circular img{
+  width:100%;
+  margin-left: -24%;
+ }
+ section .title{
+  width:80%;
+  /* margin-bottom:40%; */
+ }
+ section .title h1{
+  font-size:15vw;
+  line-height:13vw;
+ }
+}
+
+@keyframes disolved{
+  from{
+    opacity:1;
+  }
+  to{
+    opacity:0;
+    
   }
 }

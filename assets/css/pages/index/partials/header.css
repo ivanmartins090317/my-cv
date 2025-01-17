@@ -1,5 +1,5 @@
 .container-header {
-  top: 8%;
+  top: 15%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 80%;
@@ -12,7 +12,7 @@
 }
 .material-symbols-outlined {
   color: #ffffff;
-  font-size: clamp(4.5rem, 1vw, 3.5rem);
+  font-size: 4vw;
 }
 .nav {
   position: fixed;
@@ -55,16 +55,16 @@
   color: #fff;
 }
 .button-header {
-  width: 23%;
+  width: 25%;
   text-align: center;
-  padding: 1vw 0;
+  padding: 1% 5%;
   border-radius: 999px;
   background-color: #b0bec5;
   outline: none;
   border: none;
   font-family: "Roboto", sans-serif;
-  font-size: clamp(1.5rem, 2.5vw, 1.5rem);
-  margin-left: 80%;
+  font-size:1.2vw;
+  margin-left: 47%;
   color:#5f6163;
 }
 .button-header:hover{
@@ -72,9 +72,24 @@
   transition: all 0.3s ease;
   color:#b0bec5;  
 }
-@media screen and (min-width: 1600px){}
-@media screen and (max-width: 1000px) {
-  .button-header {
-    margin-left: 8rem;
+@media screen and (min-width: 1600px){
+  .container-header .button-header {
+    width:25%;
+    font-size:20px;
+  }
+  .material-symbols-outlined{
+    font-size:3.3vw;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .material-symbols-outlined{
+    font-size:10vw;
+  }
+
+  .container-header .button-header {
+    width:40%;
+    font-size: 2.5vw;
+    padding:3% 4%;
+    margin-left:0;
   }
 }
