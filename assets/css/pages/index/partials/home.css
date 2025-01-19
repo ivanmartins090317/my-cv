@@ -6,14 +6,14 @@ section:nth-of-type(1) {
   align-items: center;
 }
 
-section .title {
+#home .title {
   display: flex;
   color: #fff;
   height: auto;
   width: 80%;
   margin: auto;
 }
-section .title h1 {
+#home .title h1 {
   width: 100%;
   font-family: "Roboto", sans-serif;
   font-size: 9vw;
@@ -48,11 +48,11 @@ section .title h1 {
   width:100%;
   margin-left: -24%;
  }
- section .title{
+ #home .title{
   width:80%;
   /* margin-bottom:40%; */
  }
- section .title h1{
+ #home .title h1{
   font-size:15vw;
   line-height:13vw;
  }

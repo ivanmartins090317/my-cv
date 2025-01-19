@@ -5,17 +5,20 @@ section:nth-of-type(5) {
 }
 #experiencia .container-experiences {
     width:100%;
-    margin:0 2%;
+    margin:0 auto;
     min-height:300px;
     gap:10px;
     padding-bottom:5%;
 }
 
 #experiencia .container-experiences .title{
+  width:80%;
+  margin:0 auto;
   font-size:2.5vw;
   /* font-family: "Open-Sans", sans-serif; */
   font-weight:bold;
   padding-top:4%;
+  color:#FFFFFF;
 }
 #experiencia .container-experiences .paragraph {
   color: #ffffff;
