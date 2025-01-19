@@ -11,8 +11,11 @@
   text-transform: uppercase;
 }
 .material-symbols-outlined {
-  color: #ffffff;
+  color: #b0bec5;
   font-size: 4vw;
+  animation:changeColor 2ms linear;
+  animation-timeline:view();
+  animation-range:visualizer 20%;
 }
 .nav {
   position: fixed;
@@ -71,6 +74,12 @@
   background:#5f6163;
   transition: all 0.3s ease;
   color:#b0bec5;  
+}
+
+@keyframes changeColor{
+  to{
+    color:#5f6163;
+  }
 }
 @media screen and (min-width: 1600px){
   .container-header .button-header {

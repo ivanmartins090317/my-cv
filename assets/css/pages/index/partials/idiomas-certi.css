@@ -1,4 +1,34 @@
 section:nth-of-type(9) {
   background-image: url("../../../../images/home/banner cv web sem foto sem logos.png");
-  height: 300px;
+  height: 500px;
+}
+
+.container-idioma{
+ width:80%;
+ margin:0 auto;
+ padding-top:8%;
+}
+.container-idioma .title{
+ font-size:2.5vw;
+ font-weight:bold;
+ margin:0;
+}
+
+.container-idioma .paragraph{
+ font-size:2.5vw;
+ color:#FFFFFF;
+ margin-top:3%;
+}
+
+@media (max-width:1100px){
+  section:nth-of-type(9){
+    height:57vw;
+  }
+  .container-idioma .title{
+    font-size:4.5vw;
+  }
+  .container-idioma .paragraph{
+    font-size:4.5vw;
+    line-height:8vw;
+  }
 }

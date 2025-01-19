@@ -2,9 +2,36 @@ section:nth-of-type(7) {
   background-image: url("../../../../images/home/banner cv web sem foto sem logos.png");
   height: 500px;
 }
+.education{
+  width: 100%;
+}
+.education .container-education{
+  width:80%;
+  /* font-family:"open sans", sans serif; */
+  margin: 0 auto;
+  padding-top:8%;
+}
+.education .container-education .title{
+ font-size:2.5vw;
+ font-weight:bold;
+ margin:0;
+ color:#ffffff;
+}
+.education .container-education .paragraph{    
+  font-size:2.5vw;
+  margin-top:3%;
+  color:#ffffff;
+}
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
   section:nth-of-type(7){
-    height: 300px;
+    height: 57vw;
+  }
+  .education .container-education .title{
+    font-size:4.5vw;
+  }
+  .education .container-education .paragraph{
+    font-size:4.5vw;
+    line-height:8vw;
   }
 }

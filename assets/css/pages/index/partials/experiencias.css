@@ -13,7 +13,7 @@ section:nth-of-type(5) {
 
 #experiencia .container-experiences .title{
   font-size:2.5vw;
-  font-family: "Open-Sans", sans-serif;
+  /* font-family: "Open-Sans", sans-serif; */
   font-weight:bold;
   padding-top:4%;
 }

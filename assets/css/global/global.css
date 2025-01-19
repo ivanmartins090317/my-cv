@@ -1,21 +1,7 @@
 @import "./normalize.css";
 @import "./animations.css";
 
-/* * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  -webkit-font-smoothing: antialised;
-  -moz-osx-font-smoothing: grayscale;
-}
 
-:root {
-  font-size: 62.5%;
-}
-body {
-  font-size: 1.62%;
-  font-family: 'Montserrat Subrayada', sans-serif;
-} */
 
 section {
   width: 100%;
@@ -26,19 +12,6 @@ section {
   background-attachment: fixed;
 }
 
-
-/* .title {
-  font-family: "Open-Sans", sans-serif;
-  color: #ffffff;
-  font-size: clamp(2.5rem, 2.5vw, 5rem);
-  line-height: clamp(3.5rem, 2.5vw, 3rem);
-  font-weight: 800;
-  width: 80%;
-  max-width: 200rem;
-  margin: 0 auto;
-  padding-top: 5rem;
-  padding-bottom: 1.5rem;
-} */
 
 .border-bottom {
   width: 80%;
