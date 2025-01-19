@@ -101,7 +101,5 @@ section.text-description {
     text-wrap: wrap;
     overflow: hidden;
     margin: auto;
-    align-items: start;
-    text-aliggn: center;
   }
 }
