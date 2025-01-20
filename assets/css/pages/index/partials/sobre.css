@@ -1,6 +1,6 @@
 section:nth-of-type(3) {
   background-image:url("../../../../images/home/banner cv web sem foto sem logos.png");
-  height: 100vh;
+  height: 57vh;
   background-color:#424242;
 }
 .about{
@@ -9,7 +9,7 @@ section:nth-of-type(3) {
 section .paragraph-about{
   font-family:"Montserrat", sans-serif;
   font-size:2.5vw;
-  padding-top:9%;
+  padding-top:4%;
   width: 80%;
   max-width:200rem;
   margin:0 auto;
@@ -17,10 +17,20 @@ section .paragraph-about{
   color:#ffffff;
   padding-bottom:1.5rem;
 }
+@media screen and (min-width: 1600px){
+  section:nth-of-type(3){
+    height:47vw;
+  }
+  section .paragraph-about{
+    font-size:2.5vw;
+    line-height:4vw;
+    padding-top:4%;
+  }
+}
 
 @media screen and (max-width: 1100px){
   section:nth-of-type(3){
-    height:187vw;
+    height:159vw;
   }
   section .paragraph-about{
     font-size:4.5vw;

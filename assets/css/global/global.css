@@ -17,7 +17,7 @@ section {
   width: 80%;
   height:1px;
   border-bottom:1px solid #ffffff;
-  margin: 1rem auto;
+  margin: 0 auto;
   padding-bottom: 1rem;
 }
 section.text-description {
@@ -28,7 +28,7 @@ section.text-description {
   text-align: justify;
   flex-wrap: nowrap;
   padding: 10%;
-  font-size: clamp(10rem, 2.5vw, 24rem);
+  font-size: 8.5vw;
   margin: auto;
   opacity: 0.5;
   background-color: #b0bec5;
@@ -67,10 +67,10 @@ section.text-description {
   transition: all 1s;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
   section.text-description {
-    font-size: clamp(4.5rem, 2.5vw, 24rem);
-    line-height: clamp(5rem, 2.5vw, 20rem);
+    font-size: 8.5vw;
+    line-height: 11vw;
     text-wrap: wrap;
     overflow: hidden;
     margin: auto;
