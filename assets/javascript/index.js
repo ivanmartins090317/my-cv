@@ -30,6 +30,7 @@ links.addEventListener("click", (event) => {
   const id = event.target.getAttribute("href");
   const distanceToTop = document.querySelector(id).offsetTop - 140;
   smoothScrollTo(0, distanceToTop);
+  links.style.display = "none"    
 });
 
 function smoothScrollTo(endX, endY, duration) {

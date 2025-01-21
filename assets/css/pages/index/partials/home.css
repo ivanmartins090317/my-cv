@@ -12,6 +12,7 @@ section:nth-of-type(1) {
   height: auto;
   width: 80%;
   margin: auto;
+  position:relative;
 }
 #home .title h1 {
   width: 100%;
@@ -27,23 +28,41 @@ section:nth-of-type(1) {
 
 }
 .text-circular {
+  width:32vw;
+  height:32vw;
+  display:flex;
+  align-items:center;
+  justify-content:center;
   position:absolute;
   left: 60%;
+  top:-8%;
+  border-radius:50%;
   animation: disolved 1s ease-in-out;
   animation-timeline: view();
   animation-range:cover 80% cover 100%;
+  
 }
 .text-circular img{
-  width:135%;
+  width:90%;
   animation: rodando 20s linear infinite;
-
+  position:relative;
+  object-fit: cover;
 }
+
 @media screen and (min-width: 1600px){
   .text-circular img{
-    width:202%;
+    width:125%;
+  }
+  .text-circular{
+    left:56%
   }
 }
 @media screen and (max-width: 1100px) {
+  .text-circular{
+    width:50vw;
+    left:33%;
+    top:25%
+  }
  .text-circular img{
   width:100%;
   margin-left: -24%;

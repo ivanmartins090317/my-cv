@@ -28,7 +28,7 @@ body {
   background-color: var(--cor-branco);
   scroll-behavior: smooth;
   font-family:"Montserrat", sans-serif;
-  cursor:url("../../images/home/Layer_2curso-image.png"), auto;
+  /* cursor:url("../../images/home/Layer_2curso-image.png"), auto; */
 }
 ::selection {
   color: var(--cor-branco);
