@@ -5,7 +5,10 @@ section:nth-of-type(1) {
   justify-content: center;
   align-items: center;
 }
-
+#home{
+    cursor:url("../../images/home/Layer_2curso-image.png"), auto;
+  overflow: hidden;
+}
 #home .title {
   display: flex;
   color: #fff;
@@ -60,8 +63,8 @@ section:nth-of-type(1) {
 @media screen and (max-width: 1100px) {
   .text-circular{
     width:50vw;
-    left:33%;
-    top:25%
+    left:52%;
+    top:56%
   }
  .text-circular img{
   width:100%;
@@ -72,8 +75,8 @@ section:nth-of-type(1) {
   /* margin-bottom:40%; */
  }
  #home .title h1{
-  font-size:15vw;
-  line-height:13vw;
+  font-size:20vw;
+  line-height:18vw;
  }
 }
 

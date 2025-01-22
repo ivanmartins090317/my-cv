@@ -30,6 +30,10 @@ section .container-complementares .paragraph{
   display: inline-block;
   animation: 25s slide infinite linear;
   /* margin-left: -300px; */
+  padding-right:5vw;
+}
+.logo-slide.secondary {
+  margin-left:5%;
 }
 
 .logo-slide span {
@@ -38,8 +42,14 @@ section .container-complementares .paragraph{
   margin-right: 3rem;
   color:#FFFFFF;
 }
+.logo-slide span img{
+  width:1.5%;
+}
+.logo-slide span img.mongo{
+  width:4%;
+}
 
-section.slide .slide:hover .logo-slide {
+.slide:hover .logo-slide {
   animation-play-state: paused;
 }
 @media screen and (max-width: 1100px) {
