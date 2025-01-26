@@ -6,8 +6,10 @@ section:nth-of-type(1) {
   align-items: center;
 }
 #home{
-    cursor:url("../../images/home/Layer_2curso-image.png"), auto;
+  cursor:url("../../images/home/Layer_2curso-image.png"), auto;
   overflow: hidden;
+  
+
 }
 #home .title {
   display: flex;
@@ -16,6 +18,7 @@ section:nth-of-type(1) {
   width: 80%;
   margin: auto;
   position:relative;
+  cursor: url("../../../../images/home/Layer_2curso-image.png") 0 32,auto;
 }
 #home .title h1 {
   width: 100%;
@@ -28,7 +31,6 @@ section:nth-of-type(1) {
   animation: disolved 1s ease-in-out;
   animation-timeline: view();
   animation-range:cover 50% cover 100%;
-
 }
 .text-circular {
   width:32vw;
