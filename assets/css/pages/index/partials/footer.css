@@ -1,0 +1,93 @@
+.container-footer{
+  width: 100%;
+  height:446px;
+  background:#424242;
+}
+.container-footer .container-text{
+  width: 80%;
+  display:flex;
+  gap:18%;
+  padding-top:3%;
+  margin-left:10%;
+}
+.container-footer .container-text .contato,
+.container-footer .container-text .repo,
+.container-footer .container-text .donwload{
+  font-size:2.5vw;
+  font-weight:bold;
+  color:#323232;
+  margin-bottom:10%;
+}
+.container-footer .container-text ul{
+  list-style:none;
+  margin-bottom:20%;
+}
+.container-footer .container-text span{
+  color:#FAFAFA;
+}
+.container-footer .container-text ul li:not(:last-child){
+  margin-bottom:10%;
+}
+
+.container-footer .container-text ul li a,
+.container-footer .container-text .container-repo a
+{
+  font-size:1.5vw;
+  color:#FAFAFA;
+}
+.container-footer .container-text ul li a:hover,
+.container-footer .container-text .container-repo a:hover
+{
+  color:#A0EC06;
+  transition:color 0.3s ease;
+}
+
+.container-footer .container-text .container-donwload a{
+  padding: 5% 20%;
+  background:#A0EC06;
+  border-radius:10px;
+  color:#323232;
+}
+.container-footer .container-text .container-donwload a:hover{
+ background:#a0ec0678;
+ transition:background 0.5s ease;
+}
+
+
+@media (max-width: 1100px){
+  .container-footer{
+    height:110vw;
+  }
+  .container-footer .container-text{
+    flex-direction:column-reverse;
+  }
+  .container-footer .container-text .container-donwload .donwload{
+    margin-bottom:5%;
+  }
+  .container-footer .container-text .container-contato,
+  .container-footer .container-text .container-repo,
+  .container-footer .container-text .container-donwload
+  {
+    margin-bottom:15%;
+  }
+
+  .container-footer .container-text .container-contato .contato,
+.container-footer .container-text .container-repo .repo,
+.container-footer .container-text .container-donwload .donwload{
+  font-size:4.5vw;
+  margin-bottom:3%;
+}
+
+.container-footer .container-text ul li:not(:last-child){
+  margin-bottom:3%;
+}
+  .container-footer .container-text .container-donwload a {
+    font-size:3.5vw;
+    padding:2% 14%;
+    border-radius:2px;
+  }
+  .container-footer .container-text ul li a,
+.container-footer .container-text .container-repo a{
+  font-size:3.5vw;
+}
+}
