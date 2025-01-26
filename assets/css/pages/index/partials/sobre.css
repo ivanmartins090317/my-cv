@@ -19,8 +19,7 @@ section .paragraph-about{
 }
 @media screen and (min-width: 1600px){
   section:nth-of-type(3){
-    height:auto;
-    min-height:47vw;
+    height:47vw;
   }
   section .paragraph-about{
     font-size:2.5vw;
@@ -31,8 +30,7 @@ section .paragraph-about{
 
 @media screen and (max-width: 1100px){
   section:nth-of-type(3){
-    height:auto;
-    min-height:159vw;
+    height:159vw;
   }
   section .paragraph-about{
     font-size:4.5vw;
