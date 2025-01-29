@@ -20,7 +20,14 @@ section:nth-of-type(9) {
  color:#FFFFFF;
  margin-top:3%;
 }
-
+@media(min-width:1600px){
+  section:nth-of-type(9){
+    height:26vw;
+  }
+  .container-idioma{
+    padding-top:5%
+  }
+}
 @media (max-width:1100px){
   section:nth-of-type(9){
     height:57vw;
